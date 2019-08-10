@@ -40,11 +40,11 @@ const Vdetail = props => {
   const classes = useStyles();
 
   const user = {
-    name: 'Shen Zhi',
+    name: 'Garangan Music',
     city: 'Los Angeles',
     country: 'USA',
     timezone: 'GTM-7',
-    avatar: '/images/avatars/avatar_11.png'
+    avatar: 'https://garangan.online/images/music.png'
   };
 
   return (
@@ -82,9 +82,9 @@ const Vdetail = props => {
           />
         </div>
         <div className={classes.progress}>
-          <Typography variant="body1">Profile Completeness: 70%</Typography>
+          <Typography variant="body1">Profile Completeness: 100% Gratis</Typography>
           <LinearProgress
-            value={70}
+            value={100}
             variant="determinate"
           />
         </div>
