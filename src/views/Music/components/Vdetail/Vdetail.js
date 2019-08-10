@@ -40,7 +40,7 @@ const Vdetail = props => {
   const classes = useStyles();
 
   const user = {
-    name: 'Garangan Music',
+    name: 'Music',
     city: 'Los Angeles',
     country: 'USA',
     timezone: 'GTM-7',
@@ -82,7 +82,7 @@ const Vdetail = props => {
           />
         </div>
         <div className={classes.progress}>
-          <Typography variant="body1">Profile Completeness: 100% Gratis</Typography>
+          <Typography variant="body1">Garangan Music 100% Gratis</Typography>
           <LinearProgress
             value={100}
             variant="determinate"
@@ -96,9 +96,9 @@ const Vdetail = props => {
           color="primary"
           variant="text"
         >
-          Upload picture
+          Apk
         </Button>
-        <Button variant="text">Remove picture</Button>
+        <Button variant="text">Browser</Button>
       </CardActions>
     </Card>
   );
