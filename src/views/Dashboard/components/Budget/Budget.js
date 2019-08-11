@@ -64,12 +64,12 @@ const Budget = props => {
             >
               Garangan Video
             </Typography>
-            <Typography variant="body2">Tonton jutaan video secara gratis </Typography>
+            <Typography variant="body2">Streaming video</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <img src="http://ytd.netlify.com/images/video.png"height="32"width="32"/>
-            </Avatar>
+              <img src="https://img.icons8.com/ios/30/000000/tv-show.png">
+                </Avatar>
           </Grid>
         </Grid>
         <div className={classes.difference}>
