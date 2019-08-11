@@ -47,7 +47,7 @@ const Sidebar = props => {
     {
       title: 'Home',
       href: '/dashboard',
-      icon: <DashboardIcon />
+      icon: <img src="https://img.icons8.com/material-rounded/24/000000/video-playlist.png"/>
     },
     {
       title: 'Video',
