@@ -64,12 +64,11 @@ const TotalProfit = props => {
             >
               Garangan Send
             </Typography>
-            <Typography variant="h3">$24,000</Typography>
+            <Typography variant="body2">Pesan whatsapp</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <img src="https://img.icons8.com/ios-glyphs/30/000000/paper-plane-messages.png"/>
-                </Avatar>
+              <img src="https://img.icons8.com/clouds/100/000000/whatsapp.png"/>   </Avatar>
           </Grid>
         </Grid>
         <div className={classes.difference}>
