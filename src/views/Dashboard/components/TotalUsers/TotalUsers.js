@@ -64,7 +64,7 @@ const TotalUsers = props => {
             >
               Garangan Music
             </Typography>
-            <Typography variant="body2">Nikmati jutaan </Typography>
+            <Typography variant="body2">Streaming music </Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
