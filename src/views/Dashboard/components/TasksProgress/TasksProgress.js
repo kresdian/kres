@@ -66,7 +66,7 @@ const TasksProgress = props => {
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <img src="https://img.icons8.com/clouds/100/000000/tv-show.png"/>
+              <img src="https://img.icons8.com/clouds/30/000000/tv-show.png"/>
                 </Avatar>
           </Grid>
         </Grid>
