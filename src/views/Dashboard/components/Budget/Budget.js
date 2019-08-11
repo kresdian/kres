@@ -60,7 +60,7 @@ const Budget = props => {
               className={classes.title}
               color="textSecondary"
               gutterBottom
-              variant="h4"
+              variant="h5"
             >
               Garangan Video
             </Typography>
