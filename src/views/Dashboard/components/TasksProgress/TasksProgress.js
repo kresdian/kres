@@ -58,15 +58,15 @@ const TasksProgress = props => {
               className={classes.title}
               color="textSecondary"
               gutterBottom
-              variant="body2"
+              variant="H4"
             >
-              Garangan Music
+              Garangan Tv
             </Typography>
-            <Typography variant="h3">75.5%</Typography>
+            <Typography variant="body2">Live streaming tv online indonesia</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <img src="http://ytd.netlify.com/images/Music.png"height="32"width="32"/>
+              <img src="http://ytd.netlify.com/images/tv.png"height="32"width="32"/>
           </Avatar>
           </Grid>
         </Grid>
