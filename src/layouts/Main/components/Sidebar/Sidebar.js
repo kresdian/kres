@@ -57,7 +57,7 @@ const Sidebar = props => {
     {
       title: 'Music',
       href: '/music',
-      icon: https://img.icons8.com/material-rounded/24/000000/photos-folder.png'.
+      icon: <img src="https://img.icons8.com/material-rounded/24/000000/photos-folder.png"/>   
     },
     {
       title: 'Authentication',
