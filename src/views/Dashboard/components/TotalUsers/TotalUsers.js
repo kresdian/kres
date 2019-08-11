@@ -68,7 +68,7 @@ const TotalUsers = props => {
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-      <img src="https://img.icons8.com/ios/30/000000/music-library.png"/>
+      <img src="https://img.icons8.com/cute-clipart/30/000000/music.png"/>
         </Avatar>
           </Grid>
         </Grid>
