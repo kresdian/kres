@@ -60,15 +60,15 @@ const TotalUsers = props => {
               className={classes.title}
               color="textSecondary"
               gutterBottom
-              variant="body2"
+              variant="h4"
             >
-              Garangan Tv
+              Garangan Music
             </Typography>
-            <Typography variant="h3">1,600</Typography>
+            <Typography variant="body2">Nikmati jutaan lagu secara gratis</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-      <img src="http://ytd.netlify.com/images/tv.png"height="32"width="32"/>
+      <img src="http://ytd.netlify.com/images/music.png"height="32"width="32"/>
         </Avatar>
           </Grid>
         </Grid>
