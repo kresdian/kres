@@ -58,7 +58,7 @@ const TasksProgress = props => {
               className={classes.title}
               color="textSecondary"
               gutterBottom
-              variant="H4"
+              variant="h4"
             >
               Garangan Tv
             </Typography>
