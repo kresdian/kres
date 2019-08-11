@@ -1,4 +1,5 @@
 
+
 User-agent: Googlebot
 Disallow: 
 User-agent: googlebot-image
@@ -33,4 +34,5 @@ User-agent: yahoo-blogs/v3.9
 Disallow: 
 User-agent: *
 Disallow: 
+Disallow: /cgi-bin/
 Sitemap: https://garangan.online/sitemap.xml
