@@ -11,6 +11,8 @@ import ImageIcon from '@material-ui/icons/Image';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import SettingsIcon from '@material-ui/icons/Settings';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
+import library_music from '@material-ui/icons/library_music';
+
 
 import { Profile, SidebarNav, UpgradePlan } from './components';
 
@@ -56,7 +58,7 @@ const Sidebar = props => {
     {
       title: 'Music',
       href: '/music',
-      icon: <ShoppingBasketIcon />
+      icon: <library_music />
     },
     {
       title: 'Authentication',
