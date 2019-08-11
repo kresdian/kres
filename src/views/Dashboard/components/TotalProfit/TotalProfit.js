@@ -68,7 +68,7 @@ const TotalProfit = props => {
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <img src="https://img.icons8.com/clouds/100/000000/whatsapp.png"/>   </Avatar>
+              <img src="https://img.icons8.com/clouds/50/000000/whatsapp.png"/>   </Avatar>
           </Grid>
         </Grid>
         <div className={classes.difference}>
