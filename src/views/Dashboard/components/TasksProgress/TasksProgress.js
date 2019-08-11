@@ -62,12 +62,12 @@ const TasksProgress = props => {
             >
               Garangan Tv
             </Typography>
-            <Typography variant="body2">Live streaming tv online indonesia</Typography>
+            <Typography variant="body2">Live streaming tv </Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <img src="http://ytd.netlify.com/images/tv.png"height="32"width="32"/>
-          </Avatar>
+              <img src="https://img.icons8.com/clouds/100/000000/tv-show.png"/>
+                </Avatar>
           </Grid>
         </Grid>
         <LinearProgress
