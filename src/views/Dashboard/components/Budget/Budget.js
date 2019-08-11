@@ -60,11 +60,11 @@ const Budget = props => {
               className={classes.title}
               color="textSecondary"
               gutterBottom
-              variant="body2"
+              variant="h4"
             >
               Garangan Video
             </Typography>
-            <Typography variant="h3">$24,000</Typography>
+            <Typography variant="body2">Tonton jutaan video secara gratis </Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
