@@ -19,8 +19,8 @@ const Icons = () => {
     <div className={classes.root}>
       <iframe
         className={classes.iframe}
-        src="http://ytdl.ezyro.com"
-        title="Ytd"
+        src="https://material.io/tools/icons/?icon=accessibility&style=outline"
+        title="Material Design icons"
       />
     </div>
   );
