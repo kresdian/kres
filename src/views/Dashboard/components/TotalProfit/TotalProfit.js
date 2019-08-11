@@ -68,8 +68,8 @@ const TotalProfit = props => {
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <img src="http://ytd.netlify.com/images/send.png"height="32"width="32"/>
-            </Avatar>
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/paper-plane-messages.png"/>
+                </Avatar>
           </Grid>
         </Grid>
         <div className={classes.difference}>
