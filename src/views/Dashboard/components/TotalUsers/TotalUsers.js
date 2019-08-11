@@ -68,7 +68,7 @@ const TotalUsers = props => {
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-      <img src="http://ytd.netlify.com/images/music.png"height="32"width="32"/>
+      <img src="https://img.icons8.com/ios/30/000000/music-library.png"/>
         </Avatar>
           </Grid>
         </Grid>
