@@ -90,12 +90,13 @@ const Budget = props => {
             Gratis
           </Typography>
 
-<Typography
-            className={classes.caption}
-            variant="caption"
+ <FavoriteIcon className={classes.differenceIcon} />
+          <Typography
+            className={classes.differenceValue}
+            variant="body2"
           >
             <NavLink to="/video">Buka</NavLink>
-        
+           
           </Typography>
         </div>
       </CardContent>
