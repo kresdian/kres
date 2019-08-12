@@ -5,6 +5,8 @@ import { makeStyles } from '@material-ui/styles';
 import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import MoneyIcon from '@material-ui/icons/Money';
+import SmsIcon from '@material-ui/icons/Sms';
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -68,8 +70,8 @@ const TotalProfit = props => {
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <img src="https://img.icons8.com/clouds/50/000000/whatsapp.png"/>   </Avatar>
-          </Grid>
+              <SmsIcon />
+   </Grid>
         </Grid>
         <div className={classes.difference}>
           <ArrowDownwardIcon className={classes.differenceIcon} />
