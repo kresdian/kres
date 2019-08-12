@@ -63,7 +63,7 @@ const Sidebar = props => {
     {
       title: 'Authentication',
       href: '/sign-in',
-      icon: <Bookmarks />
+      icon: <BookmarksIcon />
     },
     {
       title: 'Typography',
