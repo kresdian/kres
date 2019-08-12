@@ -92,7 +92,7 @@ const Budget = props => {
             Gratis
           </Typography>
 &emsp;
- <BookmarksIcon className={classes.differenceIcon} />
+ <BookmarksIcon className={classes.captionIcon} />
           <Typography
             className={classes.differenceValue}
             variant="h5"
