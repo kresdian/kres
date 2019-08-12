@@ -76,8 +76,8 @@ const Budget = props => {
           </Grid>
         </Grid>
         <div className={classes.caption}>
-          <BookmarksIcon className={classes.differenceIcon} />
-          <Typography
+          <img src="https://img.icons8.com/metro/26/000000/bookmark.png"/>  
+        <Typography
             className={classes.caption}
             variant="body2"
           >
