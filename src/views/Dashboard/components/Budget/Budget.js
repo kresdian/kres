@@ -73,10 +73,6 @@ const Budget = props => {
             <Avatar className={classes.avatar}>
               <VideocamIcon />
     </Avatar>
-<br/>
-
-<NavLink to="/video">Buka</NavLink>
-         
           </Grid>
         </Grid>
         <div className={classes.difference}>
@@ -92,6 +88,14 @@ const Budget = props => {
             variant="caption"
           >
             Gratis
+          </Typography>
+
+<Typography
+            className={classes.caption}
+            variant="caption"
+          >
+            <NavLink to="/video">Buka</NavLink>
+        
           </Typography>
         </div>
       </CardContent>
