@@ -47,12 +47,13 @@ const Sidebar = props => {
     {
       title: 'Home',
       href: '/dashboard',
-      icon: <img src="https://img.icons8.com/material-rounded/24/000000/video-playlist.png"/>
+      icon: <DashboardIcon />
     },
     {
       title: 'Video',
       href: '/video',
-      icon: <PeopleIcon />
+      icon:  <img src="https://img.icons8.com/material-rounded/24/000000/video-playlist.png"/>
+   
     },
     {
       title: 'Music',
