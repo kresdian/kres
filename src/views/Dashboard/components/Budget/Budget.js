@@ -6,6 +6,8 @@ import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import MoneyIcon from '@material-ui/icons/Money';
 import VideocamIcon from '@material-ui/icons/Videocam';
+import { NavLink } from 'react-router-dom';
+
 
 const useStyles = makeStyles(theme => ({
   root: {
