@@ -13,11 +13,7 @@ import SettingsIcon from '@material-ui/icons/Settings';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
 import Important_devicesIcon from '@material-ui/icons/important_devices';
-import Library_musicIcon from '@material-ui/icons/Library_music';
-
-
-
-
+import EqualizerIcon from '@material-ui/icons/Equalizer';
 
 import { Profile, SidebarNav, UpgradePlan } from './components';
 
@@ -63,7 +59,7 @@ const Sidebar = props => {
     {
       title: 'Music',
       href: '/music',
-      icon: <Library_musicIcon /> 
+      icon: <EqualizerIcon /> 
  },
     {
       title: 'Authentication',
