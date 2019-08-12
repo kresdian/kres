@@ -5,6 +5,8 @@ import { makeStyles } from '@material-ui/styles';
 import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import PeopleIcon from '@material-ui/icons/PeopleOutlined';
+import EqualizerIcon from '@material-ui/icons/Equalizer';
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -68,8 +70,7 @@ const TotalUsers = props => {
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-      <img src="https://img.icons8.com/cute-clipart/30/000000/music.png"/>
-        </Avatar>
+     <EqualizerIcon /> </Avatar>
           </Grid>
         </Grid>
         <div className={classes.difference}>
