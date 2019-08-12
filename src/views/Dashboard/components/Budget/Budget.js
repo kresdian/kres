@@ -81,13 +81,13 @@ const Budget = props => {
             className={classes.differenceValue}
             variant="body2"
           >
-            12%
+            100%
           </Typography>
           <Typography
             className={classes.caption}
             variant="caption"
           >
-            Since last month
+            Gratis
           </Typography>
         </div>
       </CardContent>
