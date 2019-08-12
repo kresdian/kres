@@ -87,8 +87,12 @@ const Budget = props => {
             className={classes.caption}
             variant="caption"
           >
-            <NavLink to="/video">Selengkapnya</NavLink>
-        
+                 component="a"
+          href="/video"
+          target="_blank"
+        >
+          Selengkapny
+        </Link>
           </Typography>
         </div>
       </CardContent>
