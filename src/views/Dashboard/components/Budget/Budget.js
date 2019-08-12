@@ -8,6 +8,8 @@ import MoneyIcon from '@material-ui/icons/Money';
 import VideocamIcon from '@material-ui/icons/Videocam';
 import { NavLink } from 'react-router-dom';
 import FavoriteIcon from '@material-ui/icons/Favorite';
+import BookmarksIcon from '@material-ui/icons/Bookmarks';
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -90,10 +92,10 @@ const Budget = props => {
             Gratis
           </Typography>
 &emsp;
- <FavoriteIcon className={classes.differenceIcon} />
+ <BookmarksIcon className={classes.differenceIcon} />
           <Typography
             className={classes.differenceValue}
-            variant="body2"
+            variant="h5"
           >
             <NavLink to="/video">Buka</NavLink>
            
