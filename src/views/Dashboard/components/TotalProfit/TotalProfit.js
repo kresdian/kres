@@ -6,6 +6,9 @@ import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import MoneyIcon from '@material-ui/icons/Money';
 import SmsIcon from '@material-ui/icons/Sms';
+import { NavLink } from 'react-router-dom';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+
 
 
 const useStyles = makeStyles(theme => ({
@@ -64,7 +67,8 @@ const TotalProfit = props => {
               gutterBottom
               variant="body2"
             >
-              Garangan Send
+                <NavLink to="/video">Garangan Send</NavLink>
+         
             </Typography>
             <Typography variant="body2">Pesan whatsapp</Typography>
           </Grid>
@@ -75,18 +79,18 @@ const TotalProfit = props => {
    </Grid>
         </Grid>
         <div className={classes.difference}>
-          <ArrowDownwardIcon className={classes.differenceIcon} />
+          <FavoriteIcon className={classes.differenceIcon} />
           <Typography
             className={classes.differenceValue}
             variant="body2"
           >
-            12%
+            100%
           </Typography>
           <Typography
             className={classes.caption}
             variant="caption"
           >
-            Since last month
+            Gratis
           </Typography>
         </div>
       </CardContent>
