@@ -89,7 +89,7 @@ const Budget = props => {
           >
             Gratis
           </Typography>
-
+&emsp;
  <FavoriteIcon className={classes.differenceIcon} />
           <Typography
             className={classes.differenceValue}
