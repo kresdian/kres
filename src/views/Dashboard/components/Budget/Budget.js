@@ -5,6 +5,8 @@ import { makeStyles } from '@material-ui/styles';
 import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import MoneyIcon from '@material-ui/icons/Money';
+import BookmarksIcon from '@material-ui/icons/Bookmarks';
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -73,12 +75,12 @@ const Budget = props => {
           </Grid>
         </Grid>
         <div className={classes.difference}>
-          <ArrowDownwardIcon className={classes.differenceIcon} />
+          <BookmarksIcon className={classes.differenceIcon} />
           <Typography
             className={classes.differenceValue}
             variant="body2"
           >
-            12%
+            Selengkapnya
           </Typography>
           <Typography
             className={classes.caption}
