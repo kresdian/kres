@@ -12,6 +12,12 @@ import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import SettingsIcon from '@material-ui/icons/Settings';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
+import Important_devicesIcon from '@material-ui/icons/important_devices';
+import library_musicIcon from '@material-ui/icons/library_music';
+
+
+
+
 
 import { Profile, SidebarNav, UpgradePlan } from './components';
 
@@ -52,14 +58,13 @@ const Sidebar = props => {
     {
       title: 'Video',
       href: '/video',
-      icon:  <img src="https://img.icons8.com/material-rounded/24/000000/video-playlist.png"/>
-   
+      icon:  <Important_devicesIcon />
     },
     {
       title: 'Music',
       href: '/music',
-      icon: <img src="https://img.icons8.com/material-rounded/24/000000/photos-folder.png"/>   
-    },
+      icon: <library_musicIcon /> 
+ },
     {
       title: 'Authentication',
       href: '/sign-in',
