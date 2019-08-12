@@ -11,7 +11,7 @@ import ImageIcon from '@material-ui/icons/Image';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import SettingsIcon from '@material-ui/icons/Settings';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
-
+import BookmarksIcon from '@material-ui/icons/Bookmarks';
 
 import { Profile, SidebarNav, UpgradePlan } from './components';
 
@@ -63,7 +63,7 @@ const Sidebar = props => {
     {
       title: 'Authentication',
       href: '/sign-in',
-      icon: <LockOpenIcon />
+      icon: <Bookmarks />
     },
     {
       title: 'Typography',
