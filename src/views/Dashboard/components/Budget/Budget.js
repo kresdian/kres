@@ -76,19 +76,19 @@ const Budget = props => {
           </Grid>
         </Grid>
         <div className={classes.caption}>
-          <img src="https://img.icons8.com/metro/26/000000/bookmark.png"/>  
-        <Typography
+         100% Gratis 
+<Typography
             className={classes.caption}
             variant="body2"
           >
-            <BookmarksIcon />  <NavLink to="/video">Selengkapnya</NavLink>
-        
+            <BookmarksIcon />  
           </Typography>
           <Typography
             className={classes.caption}
             variant="caption"
           >
-            
+            <NavLink to="/video">Selengkapnya</NavLink>
+        
           </Typography>
         </div>
       </CardContent>
