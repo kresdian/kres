@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/styles';
 import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import MoneyIcon from '@material-ui/icons/Money';
-import Voice_chatIcon from '@material-ui/icons/Voice_chat';
+import VideocamIcon from '@material-ui/icons/Videocam';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -69,7 +69,7 @@ const Budget = props => {
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <Voice_chatIcon/>
+              <VideocamIcon />
     </Avatar>
           </Grid>
         </Grid>
