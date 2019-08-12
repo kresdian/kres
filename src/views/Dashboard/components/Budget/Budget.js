@@ -7,7 +7,7 @@ import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import MoneyIcon from '@material-ui/icons/Money';
 import VideocamIcon from '@material-ui/icons/Videocam';
 import { NavLink } from 'react-router-dom';
-import FavoriteIcon from '@material-ui/icons/favorite';
+import FavoriteIcon from '@material-ui/icons/Favorite';
 
 const useStyles = makeStyles(theme => ({
   root: {
