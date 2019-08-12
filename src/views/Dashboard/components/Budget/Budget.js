@@ -82,13 +82,13 @@ const Budget = props => {
           <BookmarksIcon className={classes.primaryIcon} />
             <Typography
             className={classes.captionValue}
-            variant="body2"
+            variant="h6"
           >
             100%
           </Typography>
           <Typography
             className={classes.caption}
-            variant="caption"
+            variant="h6"
           >
             Gratis
           </Typography>
@@ -97,7 +97,7 @@ const Budget = props => {
  <LanguageIcon className={classes.primaryIcon} />
           <Typography
             className={classes.differenceValue}
-            variant="h5"
+            variant="h6"
           >
             <NavLink to="/video">Buka</NavLink>
            
