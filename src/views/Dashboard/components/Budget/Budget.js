@@ -1,6 +1,5 @@
 import React from 'react';
 import clsx from 'clsx';
-import { Link } from 'react-router';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
 import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
@@ -88,13 +87,7 @@ const Budget = props => {
             className={classes.caption}
             variant="caption"
           >
-                <Link
-          component="a"
-          href="/video"
-          target="_blank"
-        >
-          Selengkapnya
-        </Link>
+                <a href="/video"target="_blank >Selengkapnya</a>
           </Typography>
         </div>
       </CardContent>
