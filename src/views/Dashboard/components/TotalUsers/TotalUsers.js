@@ -7,7 +7,7 @@ import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import PeopleIcon from '@material-ui/icons/PeopleOutlined';
 import EqualizerIcon from '@material-ui/icons/Equalizer';
 import { NavLink } from 'react-router-dom';
-import FavoriteIcon Pi from '@material-ui/icons/Favorite';
+import FavoriteIcon from '@material-ui/icons/Favorite';
 
 
 
