@@ -7,7 +7,7 @@ import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import MoneyIcon from '@material-ui/icons/Money';
 import VideocamIcon from '@material-ui/icons/Videocam';
 import { NavLink } from 'react-router-dom';
-
+import FavoriteIcon from '@material-ui/icons/favorite';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -76,7 +76,7 @@ const Budget = props => {
           </Grid>
         </Grid>
         <div className={classes.difference}>
-          <ArrowDownwardIcon className={classes.differenceIcon} />
+          <FavoriteIcon className={classes.differenceIcon} />
           <Typography
             className={classes.differenceValue}
             variant="body2"
