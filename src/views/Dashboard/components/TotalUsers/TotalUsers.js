@@ -6,6 +6,9 @@ import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
 import PeopleIcon from '@material-ui/icons/PeopleOutlined';
 import EqualizerIcon from '@material-ui/icons/Equalizer';
+import { NavLink } from 'react-router-dom';
+import FavoriteIcon Pi from '@material-ui/icons/Favorite';
+
 
 
 const useStyles = makeStyles(theme => ({
@@ -64,7 +67,8 @@ const TotalUsers = props => {
               gutterBottom
               variant="h5"
             >
-              Garangan Music
+              <NavLink to="/music">Garangan Music</NavLink>
+           
             </Typography>
             <Typography variant="body2">Streaming music </Typography>
           </Grid>
@@ -74,18 +78,18 @@ const TotalUsers = props => {
           </Grid>
         </Grid>
         <div className={classes.difference}>
-          <ArrowUpwardIcon className={classes.differenceIcon} />
+          <FavoriteIcon className={classes.differenceIcon} />
           <Typography
             className={classes.differenceValue}
             variant="body2"
           >
-            16%
+            100%
           </Typography>
           <Typography
             className={classes.caption}
             variant="caption"
           >
-            Since last month
+            Gratis
           </Typography>
         </div>
       </CardContent>
