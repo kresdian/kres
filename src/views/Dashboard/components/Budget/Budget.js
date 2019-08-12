@@ -7,6 +7,7 @@ import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import MoneyIcon from '@material-ui/icons/Money';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
 import LaptopIcon from '@material-ui/icons/Laptop';
+import { NavLink } from 'react-router-dom';
 
 
 const useStyles = makeStyles(theme => ({
@@ -74,19 +75,20 @@ const Budget = props => {
               <LaptopIcon /></Avatar>
           </Grid>
         </Grid>
-        <div className={classes.difference}>
+        <div className={classes.caption}>
           <BookmarksIcon className={classes.differenceIcon} />
           <Typography
-            className={classes.differenceValue}
+            className={classes.caption}
             variant="body2"
           >
-            Selengkapnya
+            <NavLink to="/video">Selengkapnya</NavLink>
+        
           </Typography>
           <Typography
             className={classes.caption}
             variant="caption"
           >
-            Since last month
+            
           </Typography>
         </div>
       </CardContent>
