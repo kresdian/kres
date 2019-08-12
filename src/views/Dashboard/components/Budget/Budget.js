@@ -6,6 +6,7 @@ import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import MoneyIcon from '@material-ui/icons/Money';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
+import LaptopIcon from '@material-ui/icons/Laptop';
 
 
 const useStyles = makeStyles(theme => ({
@@ -70,8 +71,7 @@ const Budget = props => {
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <img src="https://img.icons8.com/cute-clipart/30/000000/youtube-play.png"/>  
-                </Avatar>
+              <LaptopIcon /></Avatar>
           </Grid>
         </Grid>
         <div className={classes.difference}>
