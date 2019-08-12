@@ -11,6 +11,7 @@ import {
   LinearProgress
 } from '@material-ui/core';
 import InsertChartIcon from '@material-ui/icons/InsertChartOutlined';
+import TvIcon from '@material-ui/icons/Tv';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -66,8 +67,7 @@ const TasksProgress = props => {
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <img src="https://img.icons8.com/clouds/30/000000/tv-show.png"/>
-                </Avatar>
+              <TvIcon />   </Avatar>
           </Grid>
         </Grid>
         <LinearProgress
