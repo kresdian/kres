@@ -12,7 +12,7 @@ import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import SettingsIcon from '@material-ui/icons/Settings';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
-import Important_devicesIcon from '@material-ui/icons/important_devices';
+import LaptopIcon from '@material-ui/icons/Laptop';
 import EqualizerIcon from '@material-ui/icons/Equalizer';
 
 import { Profile, SidebarNav, UpgradePlan } from './components';
@@ -54,7 +54,7 @@ const Sidebar = props => {
     {
       title: 'Video',
       href: '/video',
-      icon:  <Important_devicesIcon />
+      icon:  <LaptopIcon />
     },
     {
       title: 'Music',
