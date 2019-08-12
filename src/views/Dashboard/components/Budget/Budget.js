@@ -63,7 +63,7 @@ const Budget = props => {
               gutterBottom
               variant="h5"
             >
-              Garangan Video
+           <NavLink to="/video">Garangan Video</NavLink>
             </Typography>
             <Typography variant="body2">Streaming video</Typography>
           </Grid>
