@@ -81,7 +81,7 @@ const Budget = props => {
             className={classes.caption}
             variant="body2"
           >
-            <NavLink to="/video">Selengkapnya</NavLink>
+            <BookmarksIcon />  <NavLink to="/video">Selengkapnya</NavLink>
         
           </Typography>
           <Typography
