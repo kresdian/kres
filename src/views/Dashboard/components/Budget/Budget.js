@@ -9,6 +9,7 @@ import VideocamIcon from '@material-ui/icons/Videocam';
 import { NavLink } from 'react-router-dom';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
+import LanguageIcon from '@material-ui/icons/Language';
 
 
 const useStyles = makeStyles(theme => ({
@@ -78,9 +79,9 @@ const Budget = props => {
           </Grid>
         </Grid>
         <div className={classes.difference}>
-          <FavoriteIcon className={classes.differenceIcon} />
-          <Typography
-            className={classes.differenceValue}
+          <BookmarksIcon className={classes.captionIcon} />
+            <Typography
+            className={classes.captionValue}
             variant="body2"
           >
             100%
@@ -92,7 +93,8 @@ const Budget = props => {
             Gratis
           </Typography>
 &emsp;
- <BookmarksIcon className={classes.captionIcon} />
+
+ <LanguageIcon className={classes.captionIcon} />
           <Typography
             className={classes.differenceValue}
             variant="h5"
