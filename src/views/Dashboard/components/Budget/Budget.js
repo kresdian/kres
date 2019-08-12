@@ -5,10 +5,7 @@ import { makeStyles } from '@material-ui/styles';
 import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import MoneyIcon from '@material-ui/icons/Money';
-import BookmarksIcon from '@material-ui/icons/Bookmarks';
-import LaptopIcon from '@material-ui/icons/Laptop';
-import { NavLink } from 'react-router-dom';
-
+import Voice_chatIcon from '@material-ui/icons/Voice_chat';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -72,22 +69,23 @@ const Budget = props => {
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <LaptopIcon /></Avatar>
+              <Voice_chatIcon/>
+    </Avatar>
           </Grid>
         </Grid>
-        <div className={classes.caption}>
-         100% Gratis 
-<Typography
-            className={classes.caption}
+        <div className={classes.difference}>
+          <ArrowDownwardIcon className={classes.differenceIcon} />
+          <Typography
+            className={classes.differenceValue}
             variant="body2"
           >
-            <BookmarksIcon />  
+            12%
           </Typography>
           <Typography
             className={classes.caption}
             variant="caption"
           >
-                <a href="/video"target="_blank >Selengkapnya</a>
+            Since last month
           </Typography>
         </div>
       </CardContent>
