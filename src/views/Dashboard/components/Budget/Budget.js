@@ -38,10 +38,10 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center'
   },
   differenceIcon: {
-    color: theme.palette.secondary.dark
+    color: theme.palette.light.dark
   },
   differenceValue: {
-    color: theme.palette.secondary.dark,
+    color: theme.palette.light.dark,
     marginRight: theme.spacing(1)
   }
 }));
