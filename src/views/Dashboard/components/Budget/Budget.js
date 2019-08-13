@@ -79,7 +79,7 @@ const Budget = props => {
           </Grid>
         </Grid>
         <div className={classes.difference}>
-          <BookmarksIcon className={classes.primaryIcon} />
+          <BookmarksIcon className={classes.differenceIcon} />
             <Typography
             className={classes.captionValue}
             variant="h6"
@@ -95,7 +95,7 @@ const Budget = props => {
           </Typography>
 &emsp;
 
- <LanguageIcon className={classes.primaryIcon} />
+ <LanguageIcon className={classes.differenceIcon} />
           <Typography
             className={classes.differenceValue}
             variant="h6"
