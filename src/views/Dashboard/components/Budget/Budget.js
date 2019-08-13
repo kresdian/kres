@@ -84,7 +84,8 @@ const Budget = props => {
             className={classes.captionValue}
             variant="h6"
           >
-            100%
+            <NavLink to="/video">Detail</NavLink>
+           
           </Typography>
           <Typography
             className={classes.caption}
