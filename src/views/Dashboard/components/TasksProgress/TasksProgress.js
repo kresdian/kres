@@ -83,7 +83,7 @@ const TasksProgress = props => {
         
 <NavLink to="/tv">
         
-  <BookmarksIcon className={classes.differenceIcon} /></NavLink>
+  <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon.png"/></NavLink>
             <Typography
             className={classes.captionValue}
             variant="h6"
