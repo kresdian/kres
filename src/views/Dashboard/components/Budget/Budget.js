@@ -100,7 +100,7 @@ const Budget = props => {
             className={classes.differenceValue}
             variant="h6"
           >
-            <NavLink to="http://send.yplay.online">Buka</NavLink>
+            <a href="http://send.yplay.online">Buka</a>
            
           </Typography>
         </div>
