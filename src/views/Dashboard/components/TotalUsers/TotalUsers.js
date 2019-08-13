@@ -1,14 +1,16 @@
+
 import React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
 import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
-import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
-import PeopleIcon from '@material-ui/icons/PeopleOutlined';
-import EqualizerIcon from '@material-ui/icons/Equalizer';
+import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
+import MoneyIcon from '@material-ui/icons/Money';
+import TvIcon from '@material-ui/icons/Tv';
 import { NavLink } from 'react-router-dom';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-
+import BookmarksIcon from '@material-ui/icons/Bookmarks';
+import NearMeIcon from '@material-ui/icons/NearMe';
 
 
 const useStyles = makeStyles(theme => ({
@@ -37,10 +39,10 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center'
   },
   differenceIcon: {
-    color: theme.palette.success.dark
+    color: theme.palette.white.dark
   },
   differenceValue: {
-    color: theme.palette.success.dark,
+    color: theme.palette.white.dark,
     marginRight: theme.spacing(1)
   }
 }));
@@ -67,29 +69,45 @@ const TotalUsers = props => {
               gutterBottom
               variant="h5"
             >
-              <NavLink to="/music">Garangan Music</NavLink>
-           
+           <NavLink to="/tv">Garangan Video</NavLink>
             </Typography>
-            <Typography variant="body2">Streaming music </Typography>
+            <Typography variant="body2">Streaming video</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-     <EqualizerIcon /> </Avatar>
+              <TvIcon />
+    </Avatar>
           </Grid>
         </Grid>
         <div className={classes.difference}>
-          <FavoriteIcon className={classes.differenceIcon} />
-          <Typography
-            className={classes.differenceValue}
-            variant="body2"
+        
+<NavLink to="/tv">
+        
+  <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon.png"/></NavLink>
+            <Typography
+            className={classes.captionValue}
+            variant="h6"
           >
-            100%
+            <NavLink to="/tv">Detail</NavLink>
+           
           </Typography>
           <Typography
             className={classes.caption}
-            variant="caption"
+            variant="h6"
           >
-            Gratis
+            &emsp; &emsp;
+          </Typography>
+&emsp;
+<NavLink to="/video">
+        
+  <img src="https://img.icons8.com/material-outlined/24/000000/near-me.png"/></NavLink>
+         
+         <Typography
+            className={classes.differenceValue}
+            variant="h6"
+          >
+            <a href="http://send.yplay.online">Buka</a>
+           
           </Typography>
         </div>
       </CardContent>
@@ -102,3 +120,14 @@ TotalUsers.propTypes = {
 };
 
 export default TotalUsers;
+
+
+
+
+
+
+
+
+
+
+
