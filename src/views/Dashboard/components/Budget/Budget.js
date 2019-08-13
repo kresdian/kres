@@ -91,7 +91,7 @@ const Budget = props => {
             className={classes.caption}
             variant="h6"
           >
-            Gratis
+            &emsp; &emsp;
           </Typography>
 &emsp;
 
