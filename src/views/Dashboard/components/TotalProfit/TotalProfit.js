@@ -47,7 +47,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const Budget = props => {
+const TotalProfit = props => {
   const { className, ...rest } = props;
 
   const classes = useStyles();
