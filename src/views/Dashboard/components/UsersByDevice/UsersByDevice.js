@@ -3,6 +3,8 @@ import { Doughnut } from 'react-chartjs-2';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import { makeStyles, useTheme } from '@material-ui/styles';
+import Hidden from '@material-ui/core/Hidden';
+
 import {
   Card,
   CardHeader,
@@ -104,7 +106,7 @@ const UsersByDevice = props => {
     }
   ];
 
-  return (
+  return (<Hidden xsDown>
     <Card
       {...rest}
       className={clsx(classes.root, className)}
@@ -143,7 +145,7 @@ const UsersByDevice = props => {
           ))}
         </div>
       </CardContent>
-    </Card>
+    </Card></Hidden>
   );
 };
 
