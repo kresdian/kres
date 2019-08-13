@@ -97,9 +97,11 @@ const Budget = props => {
             &emsp; &emsp;
           </Typography>
 &emsp;
-
- <NearMeIcon className={classes.differenceIcon} />
-          <Typography
+<NavLink to="/video">
+        
+  <NearMeIcon className={classes.differenceIcon} /></NavLink>
+         
+         <Typography
             className={classes.differenceValue}
             variant="h6"
           >
