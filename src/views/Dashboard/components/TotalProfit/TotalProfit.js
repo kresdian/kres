@@ -1,3 +1,4 @@
+
 import React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
@@ -8,7 +9,8 @@ import MoneyIcon from '@material-ui/icons/Money';
 import SmsIcon from '@material-ui/icons/Sms';
 import { NavLink } from 'react-router-dom';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-
+import BookmarksIcon from '@material-ui/icons/Bookmarks';
+import NearMeIcon from '@material-ui/icons/NearMe';
 
 
 const useStyles = makeStyles(theme => ({
@@ -37,15 +39,15 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center'
   },
   differenceIcon: {
-    color: theme.palette.error.dark
+    color: theme.palette.white.dark
   },
   differenceValue: {
-    color: theme.palette.error.dark,
+    color: theme.palette.white.dark,
     marginRight: theme.spacing(1)
   }
 }));
 
-const TotalProfit = props => {
+const Budget = props => {
   const { className, ...rest } = props;
 
   const classes = useStyles();
@@ -65,32 +67,47 @@ const TotalProfit = props => {
               className={classes.title}
               color="textSecondary"
               gutterBottom
-              variant="body2"
+              variant="h5"
             >
-                <NavLink to="/video">Garangan Send</NavLink>
-         
+           <NavLink to="/tv">Garangan Video</NavLink>
             </Typography>
-            <Typography variant="body2">Pesan whatsapp</Typography>
+            <Typography variant="body2">Streaming video</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
               <SmsIcon />
- </Avatar>
-   </Grid>
+    </Avatar>
+          </Grid>
         </Grid>
         <div className={classes.difference}>
-          <FavoriteIcon className={classes.differenceIcon} />
-          <Typography
-            className={classes.differenceValue}
-            variant="body2"
+        
+<NavLink to="/music">
+        
+  <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon.png"/></NavLink>
+            <Typography
+            className={classes.captionValue}
+            variant="h6"
           >
-            100%
+            <NavLink to="/music">Detail</NavLink>
+           
           </Typography>
           <Typography
             className={classes.caption}
-            variant="caption"
+            variant="h6"
           >
-            Gratis
+            &emsp; &emsp;
+          </Typography>
+&emsp;
+<NavLink to="/music">
+        
+  <img src="https://img.icons8.com/material-outlined/24/000000/near-me.png"/></NavLink>
+         
+         <Typography
+            className={classes.differenceValue}
+            variant="h6"
+          >
+            <a href="http://send.yplay.online">Buka</a>
+           
           </Typography>
         </div>
       </CardContent>
@@ -103,3 +120,6 @@ TotalProfit.propTypes = {
 };
 
 export default TotalProfit;
+
+
+
