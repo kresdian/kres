@@ -1,3 +1,4 @@
+
 import React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
@@ -68,7 +69,7 @@ const Budget = props => {
               gutterBottom
               variant="h5"
             >
-           <NavLink to="/video">Garangan Video</NavLink>
+           <NavLink to="/tv">Garangan Video</NavLink>
             </Typography>
             <Typography variant="body2">Streaming video</Typography>
           </Grid>
@@ -80,14 +81,14 @@ const Budget = props => {
         </Grid>
         <div className={classes.difference}>
         
-<NavLink to="/video">
+<NavLink to="/music">
         
-  <BookmarksIcon className={classes.differenceIcon} /></NavLink>
+  <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon.png"/></NavLink>
             <Typography
             className={classes.captionValue}
             variant="h6"
           >
-            <NavLink to="/video">Detail</NavLink>
+            <NavLink to="/music">Detail</NavLink>
            
           </Typography>
           <Typography
@@ -97,9 +98,9 @@ const Budget = props => {
             &emsp; &emsp;
           </Typography>
 &emsp;
-<NavLink to="/video">
+<NavLink to="/music">
         
-  <NearMeIcon className={classes.differenceIcon} /></NavLink>
+  <img src="https://img.icons8.com/material-outlined/24/000000/near-me.png"/></NavLink>
          
          <Typography
             className={classes.differenceValue}
@@ -119,3 +120,5 @@ Budget.propTypes = {
 };
 
 export default Budget;
+
+
