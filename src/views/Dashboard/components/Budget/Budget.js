@@ -79,7 +79,10 @@ const Budget = props => {
           </Grid>
         </Grid>
         <div className={classes.difference}>
-          <BookmarksIcon className={classes.differenceIcon} />
+        
+<NavLink to="/video">
+        
+  <BookmarksIcon className={classes.differenceIcon} /></NavLink>
             <Typography
             className={classes.captionValue}
             variant="h6"
