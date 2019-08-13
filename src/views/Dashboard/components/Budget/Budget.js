@@ -9,7 +9,7 @@ import VideocamIcon from '@material-ui/icons/Videocam';
 import { NavLink } from 'react-router-dom';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
-import Near_meIcon from '@material-ui/icons/Near_me';
+import NearMeIcon from '@material-ui/icons/NearMe';
 
 
 const useStyles = makeStyles(theme => ({
@@ -95,7 +95,7 @@ const Budget = props => {
           </Typography>
 &emsp;
 
- <Near_meIcon className={classes.differenceIcon} />
+ <NearMeIcon className={classes.differenceIcon} />
           <Typography
             className={classes.differenceValue}
             variant="h6"
