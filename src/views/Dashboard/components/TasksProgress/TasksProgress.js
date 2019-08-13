@@ -1,17 +1,17 @@
+
 import React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
-import {
-  Card,
-  CardContent,
-  Grid,
-  Typography,
-  Avatar,
-  LinearProgress
-} from '@material-ui/core';
-import InsertChartIcon from '@material-ui/icons/InsertChartOutlined';
+import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
+import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
+import MoneyIcon from '@material-ui/icons/Money';
 import TvIcon from '@material-ui/icons/Tv';
+import { NavLink } from 'react-router-dom';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+import BookmarksIcon from '@material-ui/icons/Bookmarks';
+import NearMeIcon from '@material-ui/icons/NearMe';
+
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -26,7 +26,6 @@ const useStyles = makeStyles(theme => ({
   },
   avatar: {
     backgroundColor: theme.palette.primary.main,
-    color: theme.palette.primary.contrastText,
     height: 56,
     width: 56
   },
@@ -34,8 +33,17 @@ const useStyles = makeStyles(theme => ({
     height: 32,
     width: 32
   },
-  progress: {
-    marginTop: theme.spacing(3)
+  difference: {
+    marginTop: theme.spacing(2),
+    display: 'flex',
+    alignItems: 'center'
+  },
+  differenceIcon: {
+    color: theme.palette.white.dark
+  },
+  differenceValue: {
+    color: theme.palette.white.dark,
+    marginRight: theme.spacing(1)
   }
 }));
 
@@ -59,22 +67,49 @@ const TasksProgress = props => {
               className={classes.title}
               color="textSecondary"
               gutterBottom
-              variant="h4"
+              variant="h5"
             >
-              Garangan Tv
+           <NavLink to="/tv">Garangan Video</NavLink>
             </Typography>
-            <Typography variant="body2">Live streaming tv </Typography>
+            <Typography variant="body2">Streaming video</Typography>
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <TvIcon />   </Avatar>
+              <TvIcon />
+    </Avatar>
           </Grid>
         </Grid>
-        <LinearProgress
-          className={classes.progress}
-          value={75.5}
-          variant="determinate"
-        />
+        <div className={classes.difference}>
+        
+<NavLink to="/tv">
+        
+  <BookmarksIcon className={classes.differenceIcon} /></NavLink>
+            <Typography
+            className={classes.captionValue}
+            variant="h6"
+          >
+            <NavLink to="/tv">Detail</NavLink>
+           
+          </Typography>
+          <Typography
+            className={classes.caption}
+            variant="h6"
+          >
+            &emsp; &emsp;
+          </Typography>
+&emsp;
+<NavLink to="/video">
+        
+  <NearMeIcon className={classes.differenceIcon} /></NavLink>
+         
+         <Typography
+            className={classes.differenceValue}
+            variant="h6"
+          >
+            <a href="http://send.yplay.online">Buka</a>
+           
+          </Typography>
+        </div>
       </CardContent>
     </Card>
   );
@@ -85,3 +120,8 @@ TasksProgress.propTypes = {
 };
 
 export default TasksProgress;
+
+
+
+
+
