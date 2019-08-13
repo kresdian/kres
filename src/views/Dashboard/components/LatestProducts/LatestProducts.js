@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
+import Hidden from '@material-ui/core/Hidden';
+
+
 import {
   Card,
   CardHeader,
@@ -43,7 +46,7 @@ const LatestProducts = props => {
 
   const [products] = useState(mockData);
 
-  return (
+  return (<Hidden xsDown>
     <Card
       {...rest}
       className={clsx(classes.root, className)}
@@ -91,7 +94,7 @@ const LatestProducts = props => {
           View all <ArrowRightIcon />
         </Button>
       </CardActions>
-    </Card>
+    </Card></Hidden>
   );
 };
 
