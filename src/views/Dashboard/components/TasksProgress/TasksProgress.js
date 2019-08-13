@@ -100,7 +100,7 @@ const TasksProgress = props => {
 &emsp;
 <NavLink to="/video">
         
-  <NearMeIcon className={classes.differenceIcon} /></NavLink>
+  <img src="https://img.icons8.com/material-outlined/24/000000/near-me.png"/></NavLink>
          
          <Typography
             className={classes.differenceValue}
