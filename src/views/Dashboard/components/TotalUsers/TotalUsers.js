@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/styles';
 import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import MoneyIcon from '@material-ui/icons/Money';
-import TvIcon from '@material-ui/icons/Tv';
+import QueueMusicIcon from '@material-ui/icons/QueueMusic';
 import { NavLink } from 'react-router-dom';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
@@ -75,20 +75,20 @@ const TotalUsers = props => {
           </Grid>
           <Grid item>
             <Avatar className={classes.avatar}>
-              <TvIcon />
+              <QueueMusicIcon />
     </Avatar>
           </Grid>
         </Grid>
         <div className={classes.difference}>
         
-<NavLink to="/tv">
+<NavLink to="/music">
         
   <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon.png"/></NavLink>
             <Typography
             className={classes.captionValue}
             variant="h6"
           >
-            <NavLink to="/tv">Detail</NavLink>
+            <NavLink to="/music">Detail</NavLink>
            
           </Typography>
           <Typography
@@ -98,7 +98,7 @@ const TotalUsers = props => {
             &emsp; &emsp;
           </Typography>
 &emsp;
-<NavLink to="/video">
+<NavLink to="/music">
         
   <img src="https://img.icons8.com/material-outlined/24/000000/near-me.png"/></NavLink>
          
