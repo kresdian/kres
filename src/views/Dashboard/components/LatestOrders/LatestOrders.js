@@ -4,6 +4,9 @@ import moment from 'moment';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
+import Hidden from '@material-ui/core/Hidden';
+
+
 import {
   Card,
   CardActions,
@@ -57,7 +60,7 @@ const LatestOrders = props => {
 
   const [orders] = useState(mockData);
 
-  return (
+  return (  <Hidden xsDown>
     <Card
       {...rest}
       className={clsx(classes.root, className)}
@@ -137,7 +140,7 @@ const LatestOrders = props => {
           View all <ArrowRightIcon />
         </Button>
       </CardActions>
-    </Card>
+    </Card> </Hidden>
   );
 };
 
