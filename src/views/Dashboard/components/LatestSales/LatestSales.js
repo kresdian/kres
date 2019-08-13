@@ -3,6 +3,8 @@ import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import { Bar } from 'react-chartjs-2';
 import { makeStyles } from '@material-ui/styles';
+import Hidden from '@material-ui/core/Hidden';
+
 import {
   Card,
   CardHeader,
@@ -33,7 +35,7 @@ const LatestSales = props => {
   const classes = useStyles();
 
   return (
-    <Card
+  <Hidden xsDown>  <Card
       {...rest}
       className={clsx(classes.root, className)}
     >
@@ -67,7 +69,7 @@ const LatestSales = props => {
           Overview <ArrowRightIcon />
         </Button>
       </CardActions>
-    </Card>
+    </Card></Hidden>
   );
 };
 
