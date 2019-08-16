@@ -37,8 +37,8 @@ const Vprofil = props => {
     >
       <form>
         <CardHeader
-          subheader="Manage the Vprofil"
-          title="Vprofil"
+          subheader=""
+          title="Tentang garangan video"
         />
         <Divider />
         <CardContent>
