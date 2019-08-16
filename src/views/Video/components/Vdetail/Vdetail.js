@@ -40,10 +40,10 @@ const Vdetail = props => {
   const classes = useStyles();
 
   const user = {
-    name: 'Shen Zhi',
-    city: 'Los Angeles',
-    country: 'USA',
-    timezone: 'GTM-7',
+    name: 'Garangan video',
+    city: 'Streaming',
+    country: 'video',
+    timezone: 'gratis',
     avatar: '/images/avatars/avatar_11.png'
   };
 
@@ -57,14 +57,14 @@ const Vdetail = props => {
           <div>
             <Typography
               gutterBottom
-              variant="h2"
+              variant="h6"
             >
-              John Doe
+              Garangan video
             </Typography>
             <Typography
               className={classes.locationText}
               color="textSecondary"
-              variant="body1"
+              variant="body2"
             >
               {user.city}, {user.country}
             </Typography>
@@ -82,9 +82,9 @@ const Vdetail = props => {
           />
         </div>
         <div className={classes.progress}>
-          <Typography variant="body1">Profile Completeness: 70%</Typography>
+          <Typography variant="body2">Garangan video 100% Gratis</Typography>
           <LinearProgress
-            value={70}
+            value={100}
             variant="determinate"
           />
         </div>
