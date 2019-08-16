@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Paper from '@material-ui/core/Paper';
+
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/styles';
 import {
@@ -40,6 +42,9 @@ const Vprofil = props => {
         />
         <Divider />
         <CardContent>
+ 
+
+
           <Grid
             container
             spacing={6}
@@ -47,87 +52,24 @@ const Vprofil = props => {
           >
             <Grid
               className={classes.item}
-              item
-              md={4}
-              sm={6}
-              xs={12}
-            >
+              item xs={12}>
+            
               <Typography
-                gutterBottom
-                variant="h6"
+              variant="subtitle2"
               >
-                Notifications
+                
+<p>Garangan Video adalah klien pihak ketiga ringan gratis untuk YouTube, memungkinkan Anda untuk dengan mudah menemukan video hebat dan musik gratis di seluruh dunia dan negara Anda.
+</p>
+* PLEASE NOTE * 
+Pemain Y-Tube adalah aplikasi pihak ketiga. Semua konten disediakan oleh layanan YouTube. Karenanya Y-Tube player tidak memiliki kontrol langsung atas konten yang ditampilkan.
+
               </Typography>
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    color="primary"
-                    defaultChecked //
-                  />
-                }
-                label="Email"
-              />
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    color="primary"
-                    defaultChecked //
-                  />
-                }
-                label="Push Notifications"
-              />
-              <FormControlLabel
-                control={<Checkbox color="primary" />}
-                label="Text Messages"
-              />
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    color="primary"
-                    defaultChecked //
-                  />
-                }
-                label="Phone calls"
-              />
-            </Grid>
-            <Grid
-              className={classes.item}
-              item
-              md={4}
-              sm={6}
-              xs={12}
-            >
-              <Typography
-                gutterBottom
-                variant="h6"
-              >
-                Messages
-              </Typography>
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    color="primary"
-                    defaultChecked //
-                  />
-                }
-                label="Email"
-              />
-              <FormControlLabel
-                control={<Checkbox color="primary" />}
-                label="Push Notifications"
-              />
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    color="primary"
-                    defaultChecked //
-                  />
-                }
-                label="Phone calls"
-              />
-            </Grid>
-          </Grid>
-        </CardContent>
+
+
+
+              </Grid> </Grid>
+
+        </CardContent> 
         <Divider />
         <CardActions>
           <Button
