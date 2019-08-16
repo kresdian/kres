@@ -66,14 +66,14 @@ const Vdetail = props => {
               color="textSecondary"
               variant="body2"
             >
-              {user.city}, {user.country}
+             Streaming video gratis
             </Typography>
             <Typography
               className={classes.dateText}
               color="textSecondary"
               variant="body1"
             >
-              {moment().format('hh:mm A')} ({user.timezone})
+             
             </Typography>
           </div>
           <Avatar
