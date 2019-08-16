@@ -57,9 +57,9 @@ const Vdetail = props => {
           <div>
             <Typography
               gutterBottom
-              variant="h2"
+              variant="h6"
             >
-              John Doe
+              Garangan Music
             </Typography>
             <Typography
               className={classes.locationText}
