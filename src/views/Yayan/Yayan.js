@@ -15,15 +15,8 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 
   
-const Yayan = makeStyles({
-  root: {
-    width: 500,
-  },
-});
-
-export default function SimpleBottomNavigation() {
+const Yayan = () => {
   const classes = useStyles();
-  const [value, setValue] = React.useState(0);
 
 
  return (
