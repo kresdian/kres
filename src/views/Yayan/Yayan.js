@@ -16,7 +16,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 
   
 const Yayan = () => {
-  const classes = useStyles();
+  const classes = makeStyles();
 
 
  return (
