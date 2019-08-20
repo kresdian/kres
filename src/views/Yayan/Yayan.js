@@ -14,11 +14,9 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 
-const Yayan = props => {
-  const { className, ...rest } = props;
 
   
-const useStyles = makeStyles({
+const Yayan = makeStyles({
   root: {
     width: 500,
   },
