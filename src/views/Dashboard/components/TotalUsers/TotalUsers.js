@@ -83,7 +83,7 @@ const TotalUsers = props => {
         
 <NavLink to="/music">
         
-  <BookmarksIcon "/></NavLink>
+  <BookmarksIcon /></NavLink>
             <Typography
             className={classes.captionValue}
             variant="h6"
