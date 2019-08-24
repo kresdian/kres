@@ -74,17 +74,7 @@ const Sidebar = props => {
     },
   <Divider />
 
- {
-      title: 'Tentang kami',
-      href: '/send',
-      icon: <TextFieldsIcon />
-    },
- {
-      title: 'Kebijakan privasi',
-      href: '/send',
-      icon: <TextFieldsIcon />
-    },
-
+ 
 
   ];
 
