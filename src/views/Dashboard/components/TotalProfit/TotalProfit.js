@@ -83,7 +83,7 @@ const TotalProfit = props => {
         
 <NavLink to="/music">
         
-  <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon.png"/></NavLink>
+  <BookmarksIcon /></NavLink>
             <Typography
             className={classes.captionValue}
             variant="h6"
@@ -100,7 +100,7 @@ const TotalProfit = props => {
 &emsp;
 <NavLink to="/music">
         
-  <img src="https://img.icons8.com/material-outlined/24/000000/near-me.png"/></NavLink>
+  <NearMeIcon /></NavLink>
          
          <Typography
             className={classes.differenceValue}
