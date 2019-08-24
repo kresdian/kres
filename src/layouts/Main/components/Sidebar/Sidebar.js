@@ -15,6 +15,9 @@ import BookmarksIcon from '@material-ui/icons/Bookmarks';
 import LaptopIcon from '@material-ui/icons/Laptop';
 import EqualizerIcon from '@material-ui/icons/Equalizer';
 
+import Divider from '@material-ui/core/Divider';
+
+
 import { Profile, SidebarNav, UpgradePlan } from './components';
 
 const useStyles = makeStyles(theme => ({
@@ -71,7 +74,7 @@ const Sidebar = props => {
       href: '/send',
       icon: <TextFieldsIcon />
     },
-  
+  <Divider />
 
   ];
 
