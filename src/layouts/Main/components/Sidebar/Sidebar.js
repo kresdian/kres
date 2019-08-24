@@ -71,10 +71,36 @@ const Sidebar = props => {
       href: '/send',
       icon: <TextFieldsIcon />
     },
-   
+  
+
   ];
 
-  
+<divider />
+
+
+  return (
+    <Drawer
+      anchor="left"
+      classes={{ paper: classes.drawer }}
+      onClose={onClose}
+      open={open}
+      variant={variant}
+    >
+      <div
+        {...rest}
+        className={clsx(classes.root, className)}
+      >
+        <Profile />
+        <Divider className={classes.divider} />
+        <SidebarNav
+          className={classes.nav}
+          pages={pages}
+        />
+        <UpgradePlan />
+      </div>
+    </Drawer>
+  );
+};
 
 Sidebar.propTypes = {
   className: PropTypes.string,
