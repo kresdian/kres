@@ -79,7 +79,8 @@ const Budget = props => {
     </Avatar>
           </Grid>
         </Grid>
-        <div className={classes.difference}>
+        <div className={classes.difference}
+variant="body2">
         
 <NavLink to="/music">
         
