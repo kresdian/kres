@@ -75,7 +75,6 @@ const Sidebar = props => {
   ];
 
   
-};
 
 Sidebar.propTypes = {
   className: PropTypes.string,
