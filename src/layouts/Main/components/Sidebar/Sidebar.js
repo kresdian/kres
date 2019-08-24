@@ -52,8 +52,8 @@ const Sidebar = props => {
       icon: <DashboardIcon />
     },
     {
-      title: 'Video',
-      href: '/video',
+      title: 'Tv',
+      href: '/tv',
       icon:  <LaptopIcon />
     },
     {
@@ -62,30 +62,16 @@ const Sidebar = props => {
       icon: <EqualizerIcon /> 
  },
     {
-      title: 'Authentication',
-      href: '/sign-in',
+      title: 'Video',
+      href: '/video',
       icon: <BookmarksIcon />
     },
     {
-      title: 'Typography',
-      href: '/typography',
+      title: 'Send Wa',
+      href: '/send',
       icon: <TextFieldsIcon />
     },
-    {
-      title: 'Icons',
-      href: '/icons',
-      icon: <ImageIcon />
-    },
-    {
-      title: 'Account',
-      href: '/account',
-      icon: <AccountBoxIcon />
-    },
-    {
-      title: 'Settings',
-      href: '/settings',
-      icon: <SettingsIcon />
-    }
+   
   ];
 
   return (
