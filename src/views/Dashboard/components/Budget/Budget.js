@@ -39,10 +39,10 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center'
   },
   differenceIcon: {
-    color: theme.palette.white.dark
+    color: theme.palette.white
   },
   differenceValue: {
-    color: theme.palette.white.dark,
+    color: theme.palette.white,
     marginRight: theme.spacing(1)
   }
 }));
@@ -83,7 +83,7 @@ const Budget = props => {
         
 <NavLink to="/music">
         
-  <img src="https://img.icons8.com/material-outlined/24/000000/bookmark-ribbon.png"/></NavLink>
+  <BookmarksIcon /></NavLink>
             <Typography
             className={classes.captionValue}
             variant="h6"
