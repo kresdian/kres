@@ -15,8 +15,6 @@ import BookmarksIcon from '@material-ui/icons/Bookmarks';
 import LaptopIcon from '@material-ui/icons/Laptop';
 import EqualizerIcon from '@material-ui/icons/Equalizer';
 
-import Divider from '@material-ui/core/Divider';
-
 
 import { Profile, SidebarNav, UpgradePlan } from './components';
 
@@ -75,6 +73,18 @@ const Sidebar = props => {
       icon: <TextFieldsIcon />
     },
   <Divider />
+
+ {
+      title: 'Tentang kami',
+      href: '/send',
+      icon: <TextFieldsIcon />
+    },
+ {
+      title: 'Kebijakan privasi',
+      href: '/send',
+      icon: <TextFieldsIcon />
+    },
+
 
   ];
 
