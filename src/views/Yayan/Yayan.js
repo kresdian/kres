@@ -1,95 +1,124 @@
 
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
-import RestoreIcon from '@material-ui/icons/Restore';
+import clsx from 'clsx';
+import PropTypes from 'prop-types';
+import { makeStyles } from '@material-ui/styles';
+import { Card, CardContent, Grid, Typography, Avatar } from '@material-ui/core';
+import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
+import MoneyIcon from '@material-ui/icons/Money';
+import VideocamIcon from '@material-ui/icons/Videocam';
+import { NavLink } from 'react-router-dom';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import IconButton from '@material-ui/core/IconButton';
-import InfoIcon from '@material-ui/icons/Info';
-import tileData from './tileData';
-
-
+import BookmarksIcon from '@material-ui/icons/Bookmarks';
+import NearMeIcon from '@material-ui/icons/NearMe';
 
 
 const useStyles = makeStyles(theme => ({
   root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
+    height: '100%'
   },
-  gridList: {
-    width: 500,
-    height: 450,
+  content: {
+    alignItems: 'center',
+    display: 'flex'
+  },
+  title: {
+    fontWeight: 700
+  },
+  avatar: {
+    backgroundColor: theme.palette.warning.main,
+    height: 56,
+    width: 56
   },
   icon: {
-    color: 'rgba(255, 255, 255, 0.54)',
+    height: 32,
+    width: 32
   },
+  difference: {
+    marginTop: theme.spacing(2),
+    display: 'flex',
+    alignItems: 'center'
+  },
+  differenceIcon: {
+    color: theme.palette.white
+  },
+  differenceValue: {
+    color: theme.palette.white,
+    marginRight: theme.spacing(1)
+  }
 }));
 
-/**
- * The example data is structured as follows:
- *
- * import image from 'path/to/image.jpg';
- * [etc...]
- *
- * const tileData = [
- *   {
- *     img: image,
- *     title: 'Image',
- *     author: 'author',
- *   },
- *   {
- *     [etc...]
- *   },
- * ];
- */
-export default function TitlebarGridList() {
-  const classes = useStyles();
+const Yayan = props => {
+  const { className, ...rest } = props;
 
-export default function SimpleBottomNavigation() {
   const classes = useStyles();
-  const [value, setValue] = React.useState(0);
 
   return (
-<GridList cellHeight={180} className={classes.gridList}>
-        <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
-          <ListSubheader component="div">December</ListSubheader>
-        </GridListTile>
-        {tileData.map(tile => (
-          <GridListTile key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
-            <GridListTileBar
-              title={tile.title}
-              subtitle={<span>by: {tile.author}</span>}
-              actionIcon={
-                <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
-                  <InfoIcon />
-                </IconButton>
-              }
-            />
-          </GridListTile>
-        ))}
-      </GridList>
-
-    <BottomNavigation
-      value={value}
-      onChange={(event, newValue) => {
-        setValue(newValue);
-      }}
-      showLabels
-      className={classes.root}
+    <Card
+      {...rest}
+      className={clsx(classes.root, className)}
     >
-      <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
-      <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
-      <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
-    </BottomNavigation>
+      <CardContent>
+        <Grid
+          container
+          justify="space-between"
+        >
+          <Grid item>
+            <Typography
+              className={classes.title}
+              color="textSecondary"
+              gutterBottom
+              variant="h5"
+            >
+           <NavLink to="/tv">Garangan Video</NavLink>
+            </Typography>
+            <Typography variant="body2">Streaming video</Typography>
+          </Grid>
+          <Grid item>
+            <Avatar className={classes.avatar}>
+              <VideocamIcon />
+    </Avatar>
+          </Grid>
+        </Grid>
+        <div className={classes.difference}>
+        
+<NavLink to="/music">
+        
+  <BookmarksIcon /></NavLink>
+            <Typography
+            className={classes.captionValue}
+            variant="h6"
+          >
+            <NavLink to="/music">Detail</NavLink>
+           
+          </Typography>
+          <Typography
+            className={classes.caption}
+            variant="h6"
+          >
+            &emsp; &emsp;
+          </Typography>
+&emsp;
+<NavLink to="/music">
+        
+  <img src="https://img.icons8.com/material-outlined/24/000000/near-me.png"/></NavLink>
+         
+         <Typography
+            className={classes.differenceValue}
+            variant="h6"
+          >
+            <a href="http://send.yplay.online">Buka</a>
+           
+          </Typography>
+        </div>
+      </CardContent>
+    </Card>
   );
-}
+};
+
+Yayan.propTypes = {
+  className: PropTypes.string
+};
+
+export default Yayan;
+
+
