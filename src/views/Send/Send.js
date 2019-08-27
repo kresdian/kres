@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/styles';
 import { Grid } from '@material-ui/core';
 
-import { Sprofil, Sdetail } from './components';
+import { Vprofil, Vdetail } from './components';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -25,7 +25,7 @@ const Settings = () => {
           md={5}
           xs={12}
         >
-          <Sdetail />
+          <Vdetail />
         </Grid>
     
     <Grid
@@ -33,7 +33,7 @@ const Settings = () => {
           md={7}
           xs={12}
         >
-          <Sprofil />
+          <Vprofil />
         </Grid>
         
       </Grid>
