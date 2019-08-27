@@ -16,6 +16,7 @@ import {
   SignIn as SignInView,
  
   Send as SendView,
+  Tv as TvView,
   Yayan as YayanView,
   Video as VideoView,
   Music as MusicView,
@@ -60,7 +61,13 @@ const Routes = () => {
         layout={MainLayout}
         path="/icons"
       />
-      <RouteWithLayout
+   <RouteWithLayout
+        component={TvView}
+        exact
+        layout={MainLayout}
+        path="/tv"
+      />
+    <RouteWithLayout
         component={AccountView}
         exact
         layout={MainLayout}
