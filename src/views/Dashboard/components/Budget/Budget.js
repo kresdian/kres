@@ -108,7 +108,10 @@ variant="body2">
             variant="h6"
           >
             <a href="http://send.yplay.online">Buka</a>
-           
+           <script async src="https://cse.google.com/cse.js?cx=014391522214403407077:7d0gelgeawr"></script>
+<div class="gcse-search"></div>
+
+
           </Typography>
         </div>
       </CardContent>
