@@ -1,24 +1,29 @@
 
 import React from 'react';
-import CssBaseline from '@material-ui/core/CssBaseline';
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
+
+const useStyles = makeStyles(theme => ({
+  root: {
+    padding: theme.spacing(3, 2),
+  },
+}));
+
+
 const Icons = () => {
   const classes = useStyles();
 
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <Container maxWidth="sm">
-         <div class="gcse-search"></div>       
-      </Container>
-    </React.Fragment>
+    <div>
+      <Paper className={classes.root}>
+        <div class="gcse-search"></div>     
+     
+      </Paper>
+    </div>
   );
 }
-  
-
-  
-
+ 
 
 export default Icons;
 
