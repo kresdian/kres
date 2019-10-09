@@ -10,21 +10,6 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-
-const Icons = () => {
-  const classes = useStyles();
-
-return (
-    <div>
-      <Paper className={classes.root}>
-        <Typography variant="h5" component="h3">
-          This is a sheet of paper.
-
-        </Typography>
-        <Typography component="p">
-          Paper can be used to build surface or other elements for your application.
-        </Typography>
-
 componentDidMount(){
 const embedcode = `<script>
       (function() {
@@ -41,6 +26,22 @@ const embedcode = `<script>
 
   $('#gsearch').html(embedcode)
   }
+
+const Icons = () => {
+  const classes = useStyles();
+
+return (
+    <div>
+      <Paper className={classes.root}>
+        <Typography variant="h5" component="h3">
+          This is a sheet of paper.
+
+        </Typography>
+        <Typography component="p">
+          Paper can be used to build surface or other elements for your application.
+        </Typography>
+
+
 
 <div id='gsearch'>
 </div>
