@@ -10,9 +10,8 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function Icons() {
+const Icons = () => {
   const classes = useStyles();
-
 
 return (
     <div>
