@@ -55,9 +55,7 @@ return (
           </Avatar>
         }
         action={
-          <div class="gcse-search"></div>
-       
-       
+          <div class="gcse-search"></div>       
       />
       
     </Card>
