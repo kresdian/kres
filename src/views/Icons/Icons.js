@@ -59,8 +59,8 @@ return (
             <MoreVertIcon />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title="<div class="gcse-search"></div>"
+       
       />
       
     </Card>
