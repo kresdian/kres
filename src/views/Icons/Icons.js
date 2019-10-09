@@ -10,6 +10,21 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
+conponentDidMount() {
+  (function() {
+    var cx = '014391522214403407077:7d0gelgeawr';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+}
+
+
+
+
 const Icons = () => {
   const classes = useStyles();
 
@@ -23,19 +38,6 @@ return (
         <Typography component="p">
           Paper can be used to build surface or other elements for your application.
         </Typography>
-<script>
-conponentDidMount() {
-  (function() {
-    var cx = '014391522214403407077:7d0gelgeawr';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-}
-</script>
 
 <div class="gcse-searchbox" data-resultsUrl="https://www.garangan.online/icons"
 data-newWindow="true" data-queryParameterName="search" />`
