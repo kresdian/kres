@@ -23,13 +23,32 @@ return (
         <Typography component="p">
           Paper can be used to build surface or other elements for your application.
         </Typography>
-<form method = "get" title = "Search Form" action="https://garangan.online/icons">
- <div>
-    <input type="text" id="q" name="q" title="Search this site" alt="Search Text" maxlength="256" />
-    <input type="hidden" id="cx" name="cx" value="014391522214403407077:7d0gelgeawr" />
-   <input type="image" id="searchSubmit" name="submit" src="https://www.flaticon.com/free-icon/active-search-symbol_34148" alt="Go" title="Submit Search Query" />
- </div>
-</form>
+<script>
+  
+    window.__gcse || (window.__gcse = {});
+    window.__gcse.searchCallbacks = {
+      image: {
+        starting: 'myImageSearchStartingCallbackName',
+      },
+      web: {
+        starting: myWebSearchStartingCallback,
+      },
+    };
+    (function() {
+      const cx = '014391522214403407077:7d0gelgeawr';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+    })();
+  
+</script>
+
+<div class="gcse-searchbox"></div>
+<div class="gcse-searchresults"></div>
+
 
       </Paper>
     </div>
