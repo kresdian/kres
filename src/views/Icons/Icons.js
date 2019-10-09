@@ -17,11 +17,12 @@ const Icons = () => {
 
   return (
     <div className={classes.root}>
-      <iframe
-        className={classes.iframe}
-        src="https://yayanheeh.online/demo/accordion"
-        title="Material Design icons"
-      />
+      <div>
+<script async src="https://cse.google.com/cse.js?cx=014391522214403407077:7d0gelgeawr"></script>
+<div class="gcse-search"></div>
+
+
+</div>
     </div>
   );
 };
