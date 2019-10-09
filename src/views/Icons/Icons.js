@@ -55,11 +55,8 @@ return (
           </Avatar>
         }
         action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
-        title="<div class="gcse-search"></div>"
+          <div class="gcse-search"></div>
+       
        
       />
       
