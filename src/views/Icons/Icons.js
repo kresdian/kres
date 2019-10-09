@@ -56,6 +56,7 @@ return (
         }
         action={
           <div class="gcse-search"></div>       
+  }
       />
       
     </Card>
