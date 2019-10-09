@@ -59,6 +59,17 @@ return (
   }
       />
       
+  
+        <CardActions>
+        <Button size="small" color="primary">
+          Share
+        </Button>
+        <Button size="small" color="primary">
+         <div class="gcse-search"></div>       
+        </Button>
+      </CardActions>
+
+  
     </Card>
   );
 }
