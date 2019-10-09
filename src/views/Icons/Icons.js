@@ -49,25 +49,16 @@ return (
   
   <Card className={classes.card}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="recipe" className={classes.avatar}>
-            R
-          </Avatar>
-        }
+        action={
+          SEARCH     
+  }
         action={
           <div class="gcse-search"></div>       
   }
       />
       
   
-        <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-         <div class="gcse-search"></div>       
-        </Button>
-      </CardActions>
+        
 
   
     </Card>
