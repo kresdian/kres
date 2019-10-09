@@ -23,12 +23,22 @@ return (
         <Typography component="p">
           Paper can be used to build surface or other elements for your application.
         </Typography>
-<script async src="https://cse.google.com/cse.js?cx=014391522214403407077:7d0gelgeawr"></script>
-<div class="gcse-search"></div>
 
-<div class="gcse-searchbox"></div>
-<div class="gcse-searchresults"></div>
+conponentDidMount() {
+  (function() {
+    var cx = '014391522214403407077:7d0gelgeawr';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+}
 
+
+<div class="gcse-searchbox" data-resultsUrl="https://www.garangan.online/icons"
+data-newWindow="true" data-queryParameterName="search" />`
 
       </Paper>
     </div>
