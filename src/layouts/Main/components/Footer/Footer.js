@@ -21,7 +21,12 @@ const Footer = props => {
     <div>
       <Paper className={classes.root}>
       
+   <Link to="/tv"><FlatButton onTouchTap={this.clickHandler}>{l.l('no', 'Tv')}</FlatButton></Link>
+
+
       <Typography variant="body1">
+
+
         &copy;{' '}
         <Link
           component="a"
