@@ -17,9 +17,9 @@ const Icons = () => {
   return (
     <div>
       <Paper className={classes.root}>
-    <br/><br/>
+    <br/><br/><br/><br/><b>Garangan Search</b>
         <div class="gcse-search"></div>     
-     <br/><br/><br/>
+     <br/><br/><br/> <br/><br/><br/>
       </Paper>
     </div>
   );
