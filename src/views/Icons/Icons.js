@@ -10,22 +10,6 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-componentDidMount(){
-const embedcode = `<script>
-      (function() {
-        var cx = '014391522214403407077:7d0gelgeawr';
-        var gcse = document.createElement('script');
-        gcse.type = 'text/javascript';
-        gcse.async = true;
-        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(gcse, s);
-      })();
-    </script>
-    <gcse:search></gcse:search>`
-
-  $('#gsearch').html(embedcode)
-  }
 
 const Icons = () => {
   const classes = useStyles();
@@ -42,9 +26,7 @@ return (
         </Typography>
 
 
-
-<div id='gsearch'>
-</div>
+<script> (function() { var cx = '0089289843748653:ikyblft4'; var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true; gcse.src = 'https://cse.google.com/cse.js?cx=' + cx; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s); })(); </script> <gcse:search></gcse:search>:search></gcse:search>
       </Paper>
     </div>
   );
