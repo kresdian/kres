@@ -14,8 +14,6 @@ import {
   Settings as SettingsView,
   SignUp as SignUpView,
   SignIn as SignInView,
- 
-  Send as SendView,
   Tv as TvView,
   Yayan as YayanView,
   Video as VideoView,
@@ -109,12 +107,7 @@ const Routes = () => {
         layout={MinimalLayout}
         path="/sign-in"
       />
-    <RouteWithLayout
-        component={SendView}
-        exact
-        layout={MinimalLayout}
-        path="/Send"
-      />
+    
 
       <RouteWithLayout
         component={NotFoundView}
