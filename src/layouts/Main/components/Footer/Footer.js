@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import Paper from '@material-ui/core/Paper';
+import { NavLink } from 'react-router-dom';
 
 import { makeStyles } from '@material-ui/styles';
 import { Typography, Link } from '@material-ui/core';
@@ -20,9 +21,12 @@ const Footer = props => {
   return (
     <div>
       <Paper className={classes.root}>
-      
-   <Link to="/tv"><FlatButton onTouchTap={this.clickHandler}>{l.l('no', 'Tv')}</FlatButton></Link>
-
+      <center>
+    <NavLink to="/tv">Tv</NavLink>
+       <NavLink to="/music">Musik</NavLink>
+        <NavLink to="/video">Video</NavLink>
+      <NavLink to="/send">Send Wa</NavLink>
+     </center>
 
       <Typography variant="body1">
 
