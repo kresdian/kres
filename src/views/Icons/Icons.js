@@ -23,7 +23,7 @@ return (
         <Typography component="p">
           Paper can be used to build surface or other elements for your application.
         </Typography>
-<form method = "get" title = "Search Form" action="https://cse.google.com/cse/publicurl">
+<form method = "get" title = "Search Form" action="https://garangan.online/icons">
  <div>
     <input type="text" id="q" name="q" title="Search this site" alt="Search Text" maxlength="256" />
     <input type="hidden" id="cx" name="cx" value="014391522214403407077:7d0gelgeawr" />
