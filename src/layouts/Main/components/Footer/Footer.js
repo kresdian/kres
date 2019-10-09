@@ -21,12 +21,12 @@ const Footer = props => {
   return (
     <div>
       <Paper className={classes.root}>
-      
+      <small>
     <NavLink to="/tv">Tv</NavLink>
        <NavLink to="/music">Musik</NavLink>
         <NavLink to="/video">Video</NavLink>
       <NavLink to="/send">Send Wa</NavLink>
-     
+     </small>
 
       <Typography variant="body1">
 
