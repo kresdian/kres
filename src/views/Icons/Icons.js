@@ -23,28 +23,8 @@ return (
         <Typography component="p">
           Paper can be used to build surface or other elements for your application.
         </Typography>
-<script>
-  
-    window.__gcse || (window.__gcse = {});
-    window.__gcse.searchCallbacks = {
-      image: {
-        starting: 'myImageSearchStartingCallbackName',
-      },
-      web: {
-        starting: myWebSearchStartingCallback,
-      },
-    };
-    (function() {
-      const cx = '014391522214403407077:7d0gelgeawr';
-      var gcse = document.createElement('script');
-      gcse.type = 'text/javascript';
-      gcse.async = true;
-      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(gcse, s);
-    })();
-  
-</script>
+<script async src="https://cse.google.com/cse.js?cx=014391522214403407077:7d0gelgeawr"></script>
+<div class="gcse-search"></div>
 
 <div class="gcse-searchbox"></div>
 <div class="gcse-searchresults"></div>
