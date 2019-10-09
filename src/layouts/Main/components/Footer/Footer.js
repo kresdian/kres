@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
+import Paper from '@material-ui/core/Paper';
+
 import { makeStyles } from '@material-ui/styles';
 import { Typography, Link } from '@material-ui/core';
 
@@ -16,10 +18,9 @@ const Footer = props => {
   const classes = useStyles();
 
   return (
-    <div
-      {...rest}
-      className={clsx(classes.root, className)}
-    >
+    <div>
+      <Paper className={classes.root}>
+      
       <Typography variant="body1">
         &copy;{' '}
         <Link
@@ -35,6 +36,7 @@ const Footer = props => {
         Created with love for the environment. By designers and developers who
         love to work together in offices!
       </Typography>
+</Paper>
     </div>
   );
 };
