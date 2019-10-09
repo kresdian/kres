@@ -17,7 +17,7 @@ const Icons = () => {
   return (
     <div>
       <Paper className={classes.root}>
-    <br/><br/><br/><br/><b>Garangan Search</b>
+    <br/><br/><br/><center><img src="https://image.flaticon.com/icons/svg/1998/1998767.svg" height="70" width="70"/><br/><b>Garangan Search</b></center>
         <div class="gcse-search"></div>     
      <br/><br/><br/> <br/><br/><br/>
       </Paper>
