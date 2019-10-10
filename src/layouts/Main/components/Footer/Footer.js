@@ -80,7 +80,7 @@ const Footer = props => {
 <small>Supported browser</small><br/>
 <img src="https://img.icons8.com/color/30/000000/chrome--v1.png"/>
 <img src="https://img.icons8.com/color/30/000000/firefox.png"/>
-<img src="https://img.icons8.com/color/30/000000/opera--v2.png">
+<img src="https://img.icons8.com/color/30/000000/opera--v2.png"/>
 </Paper>
     </div>
   );
