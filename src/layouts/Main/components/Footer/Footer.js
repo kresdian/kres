@@ -76,6 +76,10 @@ const Footer = props => {
         Created with love for the environment. By designers and developers who
         love to work together in offices!
       </Typography>
+
+Suport Browser <img src="https://img.icons8.com/plasticine/30/000000/chrome.png">
+<img src="https://img.icons8.com/dusk/30/000000/firefox.png">
+<img src="https://img.icons8.com/dusk/30/000000/opera.png">
 </Paper>
     </div>
   );
