@@ -28,39 +28,36 @@ const Footer = props => {
   return (
     <div>
       <Paper className={classes.root}>
-      <img src="https://garangan.online/images/dev.png" width="100" height="30"/>
+      <img src="https://garangan.online/images/dev.png" width="100" height="35"/>
 
 <MenuList>
         <MenuItem>
           <ListItemIcon>
             <SendIcon fontSize="small" />
           </ListItemIcon>
-          <Typography variant="inherit">A short message</Typography>
+          <Typography variant="inherit"><NavLink to="/tv">Tv</NavLink><br/>
+  </Typography>
         </MenuItem>
         <MenuItem>
           <ListItemIcon>
             <PriorityHighIcon fontSize="small" />
           </ListItemIcon>
-          <Typography variant="inherit">A very long text that overflows</Typography>
+          <Typography variant="inherit"><NavLink to="/music">Musik</NavLink><br/>
+       </Typography>
         </MenuItem>
         <MenuItem>
           <ListItemIcon>
             <DraftsIcon fontSize="small" />
           </ListItemIcon>
           <Typography variant="inherit" noWrap>
-            A very long text that overflows
+           <NavLink to="/video">Video</NavLink><br/>
+     
           </Typography>
         </MenuItem>
       </MenuList>
 
 
-<small><p align="left">
-    <NavLink to="/tv">Tv</NavLink><br/>
-       <NavLink to="/music">Musik</NavLink><br/>
-        <NavLink to="/video">Video</NavLink><br/>
-      <NavLink to="/send">Send Wa</NavLink><br/>
-    </p>
- </small>
+
 
       <Typography variant="body1">
 
