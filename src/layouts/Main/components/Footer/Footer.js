@@ -81,6 +81,7 @@ const Footer = props => {
 <img src="https://img.icons8.com/color/30/000000/chrome--v1.png"/>
 <img src="https://img.icons8.com/color/30/000000/firefox.png"/>
 <img src="https://img.icons8.com/color/30/000000/opera--v2.png"/>
+<img src="https://img.icons8.com/color/30/000000/safari--v1.png"/>
 </Paper>
     </div>
   );
