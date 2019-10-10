@@ -18,6 +18,7 @@ import {
   Yayan as YayanView,
   Video as VideoView,
   Music as MusicView,
+  Search as SearchView,
   NotFound as NotFoundView
 } from './views';
 
@@ -27,13 +28,13 @@ const Routes = () => {
       <Redirect
         exact
         from="/"
-        to="/dashboard"
+        to="/search"
       />
       <RouteWithLayout
         component={DashboardView}
         exact
         layout={MainLayout}
-        path="/dashboard"
+        path="/search"
       />
       <RouteWithLayout
         component={UserListView}
