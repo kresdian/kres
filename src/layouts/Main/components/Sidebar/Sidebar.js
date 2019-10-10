@@ -6,7 +6,7 @@ import { Divider, Drawer } from '@material-ui/core';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import PeopleIcon from '@material-ui/icons/People';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
-import TextFieldsIcon from '@material-ui/icons/TextFields';
+import ForumIcon from '@material-ui/icons/Forum';
 import ImageIcon from '@material-ui/icons/Image';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import SettingsIcon from '@material-ui/icons/Settings';
@@ -73,7 +73,7 @@ const Sidebar = props => {
     {
       title: 'Send Wa',
       href: '/send',
-      icon: <TextFieldsIcon />
+      icon: <ForumIcon />
     },
   <Divider />
 
