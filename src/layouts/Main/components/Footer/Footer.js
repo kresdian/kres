@@ -21,7 +21,9 @@ const Footer = props => {
   return (
     <div>
       <Paper className={classes.root}>
-      <small>
+      <img src="https://garangan.online/images/dev.png" width="100" height="30"/>
+
+<small>
     <NavLink to="/tv">Tv</NavLink>
        <NavLink to="/music">Musik</NavLink>
         <NavLink to="/video">Video</NavLink>
