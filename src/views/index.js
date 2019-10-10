@@ -11,5 +11,6 @@ export { default as Yayan } from './Yayan';
 export { default as Video } from './Video';
 export { default as Music } from './Music';
 export { default as Tv } from './Tv';
+export { default as Search } from './Search';
 
 export { default as UserList } from './UserList';
