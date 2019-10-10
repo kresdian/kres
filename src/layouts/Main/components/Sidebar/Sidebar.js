@@ -14,6 +14,9 @@ import LockOpenIcon from '@material-ui/icons/LockOpen';
 import BookmarksIcon from '@material-ui/icons/Bookmarks';
 import LaptopIcon from '@material-ui/icons/Laptop';
 import EqualizerIcon from '@material-ui/icons/Equalizer';
+import VoiceChatIcon from '@material-ui/icons/VoiceChat';
+import TvIcon from '@material-ui/icons/Tv';
+import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 
 
 import { Profile, SidebarNav, UpgradePlan } from './components';
@@ -55,17 +58,17 @@ const Sidebar = props => {
     {
       title: 'Tv',
       href: '/tv',
-      icon:  <LaptopIcon />
+      icon:  <Tv />
     },
     {
       title: 'Music',
       href: '/music',
-      icon: <EqualizerIcon /> 
+      icon: <VoiceChatIcon /> 
  },
     {
       title: 'Video',
       href: '/video',
-      icon: <BookmarksIcon />
+      icon: <VideoLibraryIcon />
     },
     {
       title: 'Send Wa',
