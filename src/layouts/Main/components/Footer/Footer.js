@@ -6,9 +6,9 @@ import { NavLink } from 'react-router-dom';
 import MenuList from '@material-ui/core/MenuList';
 import MenuItem from '@material-ui/core/MenuItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
-import DraftsIcon from '@material-ui/icons/Drafts';
-import SendIcon from '@material-ui/icons/Send';
-import PriorityHighIcon from '@material-ui/icons/PriorityHigh';
+import VoiceChatIcon from '@material-ui/icons/VoiceChat';
+import TvIcon from '@material-ui/icons/Tv';
+import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 
 
 import { makeStyles } from '@material-ui/styles';
@@ -33,21 +33,21 @@ const Footer = props => {
 <MenuList>
         <MenuItem>
           <ListItemIcon>
-            <SendIcon fontSize="small" />
+            <TvIcon fontSize="small" />
           </ListItemIcon>
           <Typography variant="inherit"><NavLink to="/tv">Tv</NavLink><br/>
   </Typography>
         </MenuItem>
         <MenuItem>
           <ListItemIcon>
-            <PriorityHighIcon fontSize="small" />
+            <VideoLibraryIcon fontSize="small" />
           </ListItemIcon>
           <Typography variant="inherit"><NavLink to="/music">Musik</NavLink><br/>
        </Typography>
         </MenuItem>
         <MenuItem>
           <ListItemIcon>
-            <DraftsIcon fontSize="small" />
+            <VoiceChatIcon fontSize="small" />
           </ListItemIcon>
           <Typography variant="inherit" noWrap>
            <NavLink to="/video">Video</NavLink><br/>
