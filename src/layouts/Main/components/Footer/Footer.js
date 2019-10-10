@@ -35,14 +35,14 @@ const Footer = props => {
           <ListItemIcon>
             <TvIcon fontSize="small" />
           </ListItemIcon>
-          <Typography variant="inherit"><NavLink to="/tv">Tv</NavLink><br/>
+          <Typography variant="inherit"><NavLink to="/tv">Garangan Tv</NavLink><br/>
   </Typography>
         </MenuItem>
         <MenuItem>
           <ListItemIcon>
             <VideoLibraryIcon fontSize="small" />
           </ListItemIcon>
-          <Typography variant="inherit"><NavLink to="/music">Musik</NavLink><br/>
+          <Typography variant="inherit"><NavLink to="/music">Garangan Musik</NavLink><br/>
        </Typography>
         </MenuItem>
         <MenuItem>
@@ -50,7 +50,7 @@ const Footer = props => {
             <VoiceChatIcon fontSize="small" />
           </ListItemIcon>
           <Typography variant="inherit" noWrap>
-           <NavLink to="/video">Video</NavLink><br/>
+           <NavLink to="/video">Garangan Video</NavLink><br/>
      
           </Typography>
         </MenuItem>
