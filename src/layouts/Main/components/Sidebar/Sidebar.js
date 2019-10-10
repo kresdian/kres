@@ -58,7 +58,7 @@ const Sidebar = props => {
     {
       title: 'Tv',
       href: '/tv',
-      icon:  <Tv />
+      icon:  <TvIcon />
     },
     {
       title: 'Music',
