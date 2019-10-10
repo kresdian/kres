@@ -77,9 +77,9 @@ const Footer = props => {
         love to work together in offices!
       </Typography>
 
-Suport Browser <img src="https://img.icons8.com/plasticine/30/000000/chrome.png">
-<img src="https://img.icons8.com/dusk/30/000000/firefox.png">
-<img src="https://img.icons8.com/dusk/30/000000/opera.png">
+Suport Browser <img src="https://img.icons8.com/plasticine/30/000000/chrome.png"/>
+<img src="https://img.icons8.com/dusk/30/000000/firefox.png"/>
+<img src="https://img.icons8.com/dusk/30/000000/opera.png"/>
 </Paper>
     </div>
   );
