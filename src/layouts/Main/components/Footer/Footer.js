@@ -23,12 +23,13 @@ const Footer = props => {
       <Paper className={classes.root}>
       <img src="https://garangan.online/images/dev.png" width="100" height="30"/>
 
-<small>
-    <NavLink to="/tv">Tv</NavLink>
-       <NavLink to="/music">Musik</NavLink>
-        <NavLink to="/video">Video</NavLink>
-      <NavLink to="/send">Send Wa</NavLink>
-     </small>
+<small><p align="left">
+    <NavLink to="/tv">Tv</NavLink><br/>
+       <NavLink to="/music">Musik</NavLink><br/>
+        <NavLink to="/video">Video</NavLink><br/>
+      <NavLink to="/send">Send Wa</NavLink><br/>
+    </p>
+ </small>
 
       <Typography variant="body1">
 
