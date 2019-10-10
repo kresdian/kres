@@ -28,7 +28,7 @@ const Footer = props => {
   return (
     <div>
       <Paper className={classes.root}>
-      <img src="https://garangan.online/images/dev.png" width="100" height="35"/>
+      <img src="https://garangan.online/images/dev.png" width="150" height="40"/>
 
 <MenuList>
         <MenuItem>
@@ -63,19 +63,17 @@ const Footer = props => {
 
 
         &copy;{' '}
-        <Link
+        2019
+<Link
           component="a"
           href="https://www.instagram.com/kres_008"
           target="_blank"
         >
           Kres_008
         </Link>
-        . 2019
+        
       </Typography>
-      <Typography variant="caption">
-        Created with love for the environment. By designers and developers who
-        love to work together in offices!
-      </Typography>
+     
 <br/>
 <small>Supported browser</small><br/>
 <img src="https://img.icons8.com/color/30/000000/chrome--v1.png"/>
