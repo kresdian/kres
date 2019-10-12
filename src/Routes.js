@@ -31,7 +31,7 @@ const Routes = () => {
         to="/search"
       />
       <RouteWithLayout
-        component={DashboardView}
+        component={SearchView}
         exact
         layout={MainLayout}
         path="/search"
