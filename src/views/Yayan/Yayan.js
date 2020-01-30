@@ -43,6 +43,8 @@ const useStyles = makeStyles(theme => ({
  *   },
  * ];
  */
+export default function TitlebarGridList() {
+  const classes = useStyles();
 
 const Yayan = props => {
   const { className, ...rest } = props;
@@ -77,6 +79,5 @@ const Yayan = props => {
 Yayan.propTypes = {
   className: PropTypes.string
 };
-
-export default Yayan;
+;
 
