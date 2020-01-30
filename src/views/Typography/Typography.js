@@ -1,9 +1,6 @@
 import React, { Fragment } from 'react';
 import { makeStyles } from '@material-ui/styles';
 import { Grid, Typography as MuiTypography } from '@material-ui/core';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import tileData from './tileData';
 
 
 const useStyles = makeStyles(theme => ({
