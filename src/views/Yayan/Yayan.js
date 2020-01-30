@@ -7,7 +7,7 @@ import GridListTileBar from '@material-ui/core/GridListTileBar';
 import ListSubheader from '@material-ui/core/ListSubheader';
 import IconButton from '@material-ui/core/IconButton';
 import InfoIcon from '@material-ui/icons/Info';
-import titleData from './titleData';
+import tileData from './tileData';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -44,11 +44,6 @@ const useStyles = makeStyles(theme => ({
  * ];
  */
 export default function TitlebarGridList() {
-  const classes = useStyles();
-
-const Yayan = props => {
-  const { className, ...rest } = props;
-
   const classes = useStyles();
 
   return (
