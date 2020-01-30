@@ -1,12 +1,7 @@
-
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import IconButton from '@material-ui/core/IconButton';
-import InfoIcon from '@material-ui/icons/Info';
 import tileData from './tileData';
 
 const useStyles = makeStyles(theme => ({
@@ -21,9 +16,6 @@ const useStyles = makeStyles(theme => ({
     width: 500,
     height: 450,
   },
-  icon: {
-    color: 'rgba(255, 255, 255, 0.54)',
-  },
 }));
 
 /**
@@ -37,18 +29,14 @@ const useStyles = makeStyles(theme => ({
  *     img: image,
  *     title: 'Image',
  *     author: 'author',
+ *     cols: 2,
  *   },
  *   {
  *     [etc...]
  *   },
  * ];
  */
-export default function TitlebarGridList() {
-  const classes = useStyles();
-
-const Yayan = props => {
-  const { className, ...rest } = props;
-
+export default function ImageGridList() {
   const classes = useStyles();
 
   return (
@@ -62,12 +50,4 @@ const Yayan = props => {
       </GridList>
     </div>
   );
-};
-
-Yayan.propTypes = {
-  className: PropTypes.string
-};
-
-
-
-
+}
