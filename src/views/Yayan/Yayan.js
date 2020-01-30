@@ -68,6 +68,6 @@ Yayan.propTypes = {
   className: PropTypes.string
 };
 
-export default Yayan;
+
 
 
