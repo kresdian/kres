@@ -79,5 +79,5 @@ const Yayan = props => {
 Yayan.propTypes = {
   className: PropTypes.string
 };
-;
+
 
